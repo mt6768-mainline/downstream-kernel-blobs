@@ -4,6 +4,7 @@
 #### DTS from 2018 (4.14)
 - [Xiaomi Redmi 9 (lancelot)](https://github.com/MiCode/Xiaomi_Kernel_OpenSource/tree/lancelot-q-oss)
 - [Xiaomi Redmi Note 9 (merlin)](https://github.com/MiCode/Xiaomi_Kernel_OpenSource/tree/merlin-r-oss)
+
 ...and other 4.14 kernels
 
 [Sample DTS](https://github.com/MiCode/Xiaomi_Kernel_OpenSource/blob/merlin-r-oss/arch/arm64/boot/dts/mediatek/mt6768.dts)

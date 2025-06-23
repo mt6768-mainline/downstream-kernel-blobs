@@ -30,3 +30,12 @@ Refer to DTS file names for HyperOS version
 5. Find entry with Device tree blob entry and copy first value
 6. `dd if=vendor_boot.img of=dtb bs=1 skip=*paste value here*`
 7. `dtc -I dtb -O dts -o *put os version and codename here*.dts dtb`
+
+### Extracting DTBO
+1. Clone [extraction tool](https://github.com/cfig/Android_boot_image_editor)
+2. Copy `dtbo.img` to cloned directory
+3. Run `./gradlew unpack`
+4. Copy `build/unzip_boot/dt/dt.0.dts` somewhere and rename it to `*codename*-*version*-dtbo.dts` 
+
+
+Any DTS/DTBO PRs appreciated.

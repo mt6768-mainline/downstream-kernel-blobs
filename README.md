@@ -8,7 +8,7 @@
 ...and other 4.14 kernels
 
 [Sample DTS](https://github.com/MiCode/Xiaomi_Kernel_OpenSource/blob/merlin-r-oss/arch/arm64/boot/dts/mediatek/mt6768.dts)
-### DTS from 2019 (4.19)
+#### DTS from 2019 (4.19)
 - [Xiaomi Redmi 12 (fire)](https://github.com/MiCode/Xiaomi_Kernel_OpenSource/tree/fire-t-oss)
 - [Xiaomi Redmi 13C (gale)](https://github.com/MiCode/Xiaomi_Kernel_OpenSource/tree/gale-s-oss)
 

@@ -23,8 +23,8 @@ Refer to DTS file names for HyperOS version
 1. Download fastboot HyperOS
 2. Go to `images` directory
 3. Get kernel version:
-  - `binwalk -Me boot.img`
-  - `strings extractions/boot.img.extracted/*/decompressed.bin | grep 'Linux version'`
+    - `binwalk -Me boot.img`
+    - `strings extractions/boot.img.extracted/*/decompressed.bin | grep 'Linux version'`
 4. `binwalk -M vendor_boot.img`
 5. Find entry with Device tree blob entry and copy first value
 6. `dd if=vendor_boot.img of=dtb bs=1 skip=*paste value here*`

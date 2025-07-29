@@ -37,8 +37,8 @@ Recommended, (minor?) improvements over 5.10
 
 ### Closed-source kernels:
 
-### 5.10.209
-HyperOS 1 is known to use it with the Redmi 14C. Perhaps this is true for whole MT6768 family.
+#### 5.10.209
+HyperOS 1 is known to use it with the Redmi 14C. Perhaps this is true for the whole MT6768 family.
 
 #### 6.6.30
 HyperOS 2 uses it.

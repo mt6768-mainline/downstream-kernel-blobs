@@ -29,11 +29,12 @@ The code quality has improved overall, though only for a few drivers.
 [Sample DTS](https://github.com/OnePlusOSS/android_kernel_5.10_oneplus_mt6983/blob/ff51a39c66a87f91d870bfff1611e2b36371c8a4/arch/arm64/boot/dts/mediatek/mt6768.dts)
 
 #### 6.6
-Recommended, (minor?) improvements over 5.10
+Recommended, (minor?) improvements over 5.10. Run `cd kernel/kernel_device_modules-6.6` to get a linux-like directory structure
 
-- [Generic kernel](https://github.com/oppo-source/android_kernel_modules_and_devicetree_oppo_mt6991/blob/a98a9db1584a71c42919a78bfe2de7160f355ff9) (run `cd kernel/kernel_device_modules-6.6` to get a kernel-like directory structure)
+- [Generic kernel](https://github.com/oppo-source/android_kernel_modules_and_devicetree_oppo_mt6991/blob/a98a9db1584a71c42919a78bfe2de7160f355ff9)
+- [Samsung A05s / Helio G85](https://github.com/mt6768-mainline/android_kernel_samsung_mt6768)
 
-[Sample DTS](https://github.com/oppo-source/android_kernel_modules_and_devicetree_oppo_mt6991/blob/a98a9db1584a71c42919a78bfe2de7160f355ff9/kernel/kernel_device_modules-6.6/arch/arm64/boot/dts/mediatek/mt6768.dts)
+[Sample DTS](https://github.com/mt6768-mainline/android_kernel_samsung_mt6768/blob/master/kernel/kernel_device_modules-6.6/arch/arm64/boot/dts/mediatek/mt6768.dts)
 
 ### Closed-source kernels:
 
